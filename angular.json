@@ -55,11 +55,13 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "first-client:build"
+            "browserTarget": "first-client:build",
+            "port": 4201
           },
           "configurations": {
             "production": {
-              "browserTarget": "first-client:build:production"
+              "browserTarget": "first-client:build:production",
+              "port": 4201
             }
           }
         },
@@ -181,11 +183,13 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "second-client:build"
+            "browserTarget": "second-client:build",
+            "port": 4202
           },
           "configurations": {
             "production": {
-              "browserTarget": "second-client:build:production"
+              "browserTarget": "second-client:build:production",
+              "port": 4202
             }
           }
         },
@@ -307,11 +311,13 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "third-client:build"
+            "browserTarget": "third-client:build",
+            "port": 4203
           },
           "configurations": {
             "production": {
-              "browserTarget": "third-client:build:production"
+              "browserTarget": "third-client:build:production",
+              "port": 4203
             }
           }
         },
