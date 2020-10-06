@@ -53,7 +53,7 @@
     "@angular/compiler-cli": "^10.1.4",
     "@angular/language-service": "^10.1.4",
     "@nrwl/schematics": "^8.12.11",
-    "@schematics/angular": "0.1.17",
+    "@schematics/angular": "10.1.4",
     "@types/jasmine": "^2.8.17",
     "@types/jasminewd2": "^2.0.8",
     "@types/node": "^12.11.1",
