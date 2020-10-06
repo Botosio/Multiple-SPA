@@ -12,7 +12,7 @@ import { secondLibRoutes } from '@first-suite/second-lib';
     RouterModule.forRoot(
       [
         { path: 'second-lib', children: secondLibRoutes },
-        { path: 'third-lib', loadChildren: '@first-suite/third-lib#ThirdLibModule' }
+        { path: 'third-lib', loadChildren: () => import('@first-suite/third-lib').then(m => m.ThirdLibModule) }
       ],
       { initialNavigation: 'enabled' }
     )

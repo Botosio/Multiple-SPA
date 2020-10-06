@@ -1,14 +1,14 @@
 {
   "extends": "../../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../../dist/out-tsc/apps/third-client",
-    "module": "es2015"
-  },
+    "outDir": "../../../dist/out-tsc/apps/third-client"
+},
+  "files": [
+    "main.ts",
+    "polyfills.ts"
+  ],
   "include": [
-    "**/*.ts"
+    "**/*.d.ts"
     , "../../../libs/third-lib/index.ts"
-],
-  "exclude": [
-    "**/*.spec.ts"
-  ]
+]
 }
